@@ -1,0 +1,26 @@
+body{
+}
+.margin-top-burger{
+  margin-top:30vh;
+}
+
+.burger-title{
+  font-size:46px;
+  font-family: 'Caveat', cursive;
+  margin-left: 1vw;
+}
+.about-food{
+  font-family: 'Roboto', cursive;
+  padding-top: 3vh;
+  font-size: 16px;
+}
+
+.img-fluid{
+ opacity:0.9; 
+}
+
+@media (max-width: 1000px) {
+  .margin-top-burger{
+    margin-top:7vh;
+  }
+}
