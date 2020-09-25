@@ -1,0 +1,162 @@
+.kasiakenni{
+  color: white;
+  font-family: 'Caveat';
+  font-size: 14vh;
+}
+.bg-pic .overlay {
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0.3;
+    background: #1c1d21;
+
+}
+.margin-top{
+  height:100vh;
+}
+.welcome{
+  text-align: center;
+}
+.marginText{
+  margin-top: 12vh;
+}
+.marginText2{
+  margin-top: 25vh;
+}
+.parallax {
+  margin-top: 5vh;
+  background-image: url("pics/x7.jpeg");
+
+
+  min-height: 500px;
+
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;}
+.witam{
+  font-size: 4.5vh;
+  color: black;
+  opacity: 0.8;
+  font-family: 'Raleway';
+}
+
+
+.info{
+  width: 80%;
+  margin-right: auto;
+  margin-left: auto;
+  color: black;
+  font-family: 'Prompt';
+  font-weight: 400;
+  padding-top: 20vh;
+}
+.info-title{
+  font-size:6vh;
+  text-align: center;
+  opacity: 0.7;
+}
+.info-text{
+  opacity: 0.7;
+  color: black;
+  font-family: 'Lato';
+  font-size: 2.4vh;
+}
+.koscol{
+  width: 100%;
+  height: 70vh;
+
+}
+.fullscren2{
+  background-image: url('pics/1.jpg');
+  width: 100%;
+  height: 100%;
+    background-size:cover;
+    background-position: 10% 90%;
+}
+.overlay2{
+  width: 94.9%;
+  height: 100%;
+  background-color: black;
+  opacity: 0.2;
+  position: absolute;
+  top:0
+}
+.mainTitle{
+  text-align: center;
+  font-size: 4vh;
+  color: black;
+  font-family: 'Prompt';
+  opacity: 0.8;
+}
+.mainText{
+  text-align:center;
+  font-size: 2.2vh;
+  color: black;
+  opacity: 0.9;
+  margin-left: auto;
+  margin-right: auto;
+}
+.marginFont{
+  height: 12vh;
+}
+.marginFonts{
+  height: 5vh;
+}
+.marginTextFont{
+  height: 3vh;
+}
+.marginFooter{
+height:55vh;
+
+
+}
+.witam-text4{
+  font-size: 2.5vh;
+
+}
+.wraper{
+  margin-top:4vh;
+  text-align: center;
+  color: black;
+  font-size: 3vh;
+  font-family: 'Caveat';
+}
+.parallax2 {
+  margin-top: 5vh;
+  background-image: url("pics/oc-gonzalez-Sazn8ySet8I-unsplash.jpg");
+
+
+  min-height: 500px;
+
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;}
+  @media only screen and (max-width:481px) {
+  .info{
+    padding-top: 0vh;
+
+  }
+  .marginText2{
+    height: 0vh;
+    margin-top:2vh;
+  }
+  .marginText{
+    margin-top: 2vh;
+  }
+  .koscol{
+    margin-top: 6vh;
+    margin-bottom: 6vh;
+  }
+  .marginFooter{
+  height:10vh;
+
+
+  }
+  .mainTitle{
+    margin-top: 3vh;
+  }
+  }
